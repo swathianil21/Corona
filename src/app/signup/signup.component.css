@@ -1,0 +1,34 @@
+h1{
+    top:38%;
+    left: 40%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    outline:none;
+    border-color:rgba(14, 14, 15, 0.705);
+    border-radius: 6px;
+    border-width: 3px;   
+}
+.wrapper{
+    position: absolute;
+    padding-top: 60%;
+    top: 45%;
+    left: 20%;
+    /* transform: translate(-50%,-50%); */
+    max-width: 200%;
+    background-color:rgba(70, 131, 180, 0.425);
+    box-shadow:darkmagenta;
+    padding: 35px;
+    border-radius:20px ;    
+}
+label{
+    color:black;
+    font-size: larger;
+}
+h2{
+    color:black;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+h1{
+    color:indigo;
+    background-color: rgb(139, 179, 253);
+    text-align:center;
+    font-size: 4rem;
+}
+.symptoms .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symptoms .column .main-image img{
+    width: 43vh;
+}
+
+.symptoms .column .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.symptoms .column .box-container .box{
+    margin:1rem;
+    text-align: center;
+}
+
+.symptoms .column .box-container .box img{
+    width:10rem;
+    padding:1rem;
+}
+
+.symptoms .column .box-container .box h3{
+    font-size: 2rem;
+    color:var(--blue);
+}
+
